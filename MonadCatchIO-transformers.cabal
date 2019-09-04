@@ -23,10 +23,10 @@ Source-repository head
 
 Library
   Build-Depends:
-    base < 4.9,
-    extensible-exceptions == 0.1.*,
-    transformers >= 0.5.5.0 && < 0.5.5.1,
-    monads-tf == 0.1.*
+    base,
+    extensible-exceptions,
+    transformers,
+    monads-tf
   Exposed-Modules:
     Control.Monad.CatchIO
     Control.Monad.CatchIO.Try
